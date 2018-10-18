@@ -11,6 +11,6 @@
       for (int P = 0; P < aBunchOfAnimals.length;P++) {
       System.out.println( "this "+ (aBunchOfAnimals[P].getType()) + "... he is known as " + (aBunchOfAnimals[P]).getName());
       }
-      System.out.println("the " + (aBunchOfAnimals[0].getType()) + " is " + (aBunchOfAnimals[0].getColor()));
+      System.out.println("the " + (((NamedCow)aBunchOfAnimals[0]).getType()) + " is " + ((NamedCow)aBunchOfAnimals[0]).getColor());
 }
    }

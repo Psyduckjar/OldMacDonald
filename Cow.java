@@ -8,8 +8,9 @@ class Cow implements Animal
        myName = name;
      }
     public Cow()     {         
-        myType = "Cow";         
-        mySound = "mooo";     
+        myType = "cow";         
+        mySound = "mooo";   
+        myName = "Michael";
     }      
      public String getSound()
      {
